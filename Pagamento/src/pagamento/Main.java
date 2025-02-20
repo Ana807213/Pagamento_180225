@@ -11,7 +11,7 @@ package pagamento;
 class Main {
     
     public static void main (String [] args) {
-        Pagamento objetoPagamento [] = new Pagamento [4];
+        Pagamento objetoPagamento [] = new Pagamento [3];
         objetoPagamento [0] = (Pagamento) new Fatura ("01234","Monitor",2,375.00);
         objetoPagamento [1] = (Pagamento) new Fatura ("56789","Estabilizador",4,79.95);
         objetoPagamento [2] = (Pagamento) new TrabalhadorAssalariado ("Marcelo","111-11-111",800.00);
